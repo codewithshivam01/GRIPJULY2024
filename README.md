@@ -23,5 +23,31 @@ This project focuses on identifying and labeling colors in images using Python a
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/codewithshivam01/GRIPJULY2024.git
    cd color-identification
+
+2. Install the required packages:
+   ```
+   pip install -r requirements.txt
+
+## Usage
+1. Place your images in the images directory.
+2. Run the script to identify colors:
+  ```
+   python color_identification.py
+```
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+
+* This project uses the OpenCV library for image processing.
+* Color data is sourced from a CSV file containing color names and their corresponding RGB values.
+
+
+
+
+
+
+
